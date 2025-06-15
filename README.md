@@ -46,8 +46,8 @@ El despliegue de la aplicación se realiza automáticamente mediante **GitHub Ac
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/vasquez-esteban/RNA_G4_Prediccion_Riesgo_Crediticio
-cd RNA_G4_Prediccion_Riesgo_Crediticio
+git clone https://github.com/vasquez-esteban/RNA_G4_PCR_App
+cd RNA_G4_PCR_App
 ```
 
 ### 2. Configurar entorno Python (Linux/macOS)
@@ -108,3 +108,9 @@ Proyecto desarrollado por el equipo RNA_G4 como parte del curso **Sistemas Intel
 ## 📄 Licencia
 
 Distribuido bajo la [Licencia MIT](LICENSE).
+
+## Referencias
+
+Este proyecto forma parte del repositorio principal del equipo, que contiene todos los módulos de predicción, clasificación y recomendación, así como los modelos y reportes técnicos:
+
+[Repositorio Principal](vasquez-esteban/RNA_G4_Prediccion_Clasificacion_Recomendacion)
