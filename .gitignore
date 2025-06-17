@@ -1,5 +1,6 @@
 #
 /files/input/loan.csv
+/modelos/driver_classif.h5
 
 # History files
 .Rhistory
