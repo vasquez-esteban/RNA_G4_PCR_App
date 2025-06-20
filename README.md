@@ -97,14 +97,6 @@ Agrega las siguientes _GitHub Secrets_ si usas Hugging Face Spaces:
 
 Consulta `requirements.txt` para más detalles.
 
----
-
-## 👥 Créditos
-
-Proyecto desarrollado por el equipo RNA_G4 como parte del curso **Sistemas Inteligentes Integrados** – Universidad Nacional de Colombia, 2025.
-
----
-
 ## 📄 Licencia
 
 Distribuido bajo la [Licencia MIT](LICENSE).
