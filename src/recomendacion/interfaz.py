@@ -9,8 +9,8 @@ import calendar
 
 CSV_PATH = os.path.join(os.path.dirname(__file__), "df_ready_for_training.csv")
 df = pd.read_csv(CSV_PATH)
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "modelos", "modelo_recomendador_destinos.keras")
-modelo = load_model(MODEL_PATH)
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "modelos", "modelo_recomendador_destinos.h5")
+modelo = load_model(MODEL_PATH, compile=False)
 MAPPER_PATH = os.path.join(os.path.dirname(__file__), "destination_name_mapper.pkl")
 with open(MAPPER_PATH, "rb") as f:
     destination_name_mapper = pickle.load(f)

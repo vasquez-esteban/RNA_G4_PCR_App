@@ -123,3 +123,4 @@ pytest_cache/
 # Credentials or temp configs
 .env
 .env.*
+modelos/convert_to_h5.py
